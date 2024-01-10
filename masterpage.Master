@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.master.cs" Inherits="projectdotnetquiz.Masterpage.masterpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Master Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <div class="container">
+        <div class="header">
+            <h1>ONLINE QUIZ</h1>
+            </div>
+         <div class="main-content">
+            <asp:ContentPlaceHolder ID="Contentpage" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+        <p>&copy; 2024 Main Footer</p>
+        </div>
+       </div>
+    </form>
+</body>
+</html>
