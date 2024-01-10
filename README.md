@@ -19,10 +19,12 @@ The Quiz Creation System is a C# application designed to facilitate the creation
 ## Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://localhost:44317/Masterpage/Homepage.aspx
+   git clone  https://github.com/mrfzzz/online-quiz-.git 
+   link https://localhost:44317/Masterpage/Homepage.aspx
 
 
-## Usage
+## Usage 
+
 To create a new quiz, follow these steps:
 
 - Open the webside
